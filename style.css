@@ -84,3 +84,33 @@
     color: #ffff76;
     font-size: 24px;
 }
+
+/* Response this to all mobile devices */
+@media only screen and (max-width: 600px) {
+    .calculator h1 {
+        font-size: 30px;
+    }
+
+    .input-box{
+        margin: 20px 0;
+        padding: 25px;
+    }
+
+    .input-box input{
+        font-size: 16px;
+    }
+
+    .input-box button{
+        font-size: 16px;
+    }
+
+    #result{
+        font-size: 18px;
+    }
+
+    #result span{
+        font-size: 20px;
+    }
+    
+}
+
