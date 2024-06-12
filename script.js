@@ -45,7 +45,7 @@ function calculateAge(){
         alert("Please enter a valid date");
     }else {
         console.log(d3, m3, y3);
-        result.innerHTML = `You are <span>${y3}</span> years, <span>${m3}</span> months, <span>${d3}</span> days old`;
+        result.innerHTML = `You are <span>${y3}</span> years <span>${m3}</span> months <span>${d3}</span> days old`;
 
     }
 } 
