@@ -86,7 +86,7 @@
 }
 
 /* Response this to all mobile devices */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     .calculator h1 {
         font-size: 30px;
     }
@@ -111,6 +111,6 @@
     #result span{
         font-size: 20px;
     }
-    
+
 }
 
