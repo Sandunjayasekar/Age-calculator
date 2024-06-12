@@ -9,7 +9,18 @@
     width: 100%;
     min-height: 100vh;
     display: flex;
-    background: linear-gradient(135deg, #8a519c, #2a3963);
+    background: linear-gradient(135deg, #7c53bf, #2a3963);
     color: #fff;
     padding: 10px;
+}
+
+.calculator{
+    width: 100%;
+    max-width: 400px;
+   margin-top: 10%;
+   margin-left: 10%;
+}
+
+.calculator h1 {
+    font-size: 60px;
 }
