@@ -5,11 +5,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.age-container{
+.container{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(208, 196, 196);
+    background: linear-gradient(135deg, #8a519c, #2a3963);
+    color: #fff;
+    padding: 10px;
 }
