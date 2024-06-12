@@ -1,6 +1,7 @@
 
 let userInput = document.getElementById('date');
 userInput.max = new Date().toISOString().split("T")[0];
+let result = document.getElementById('result');
 
 function calculateAge(){
     let birthDate = new Date(userInput.value);
@@ -38,8 +39,16 @@ function calculateAge(){
        y3--;
     }
 
-    console.log(d3, m3, y3);
-}
+    // if user entered invalid date
+    
+    if(isNaN(y3) || isNaN(m3) || isNaN(d3)){
+        alert("Please enter a valid date");
+    }else {
+        console.log(d3, m3, y3);
+        result.innerHTML = `You are <span>${y3}</span> years, <span>${m3}</span> months, <span>${d3}</span> days old`;
+
+    }
+} 
 
 function getDaysInMonth(month, year) {
     return new Date(year, month, 0).getDate();

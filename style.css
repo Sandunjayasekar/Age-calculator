@@ -12,6 +12,8 @@
     background: linear-gradient(135deg, #7c53bf, #2a3963);
     color: #fff;
     padding: 10px;
+
+
 }
 
 .calculator{
@@ -72,4 +74,13 @@
     background-position: calc(100% - 10px);
     background-size: 30px;
     cursor: pointer;
+}
+
+#result{
+    font-size: 20px;
+}
+
+#result span{
+    color: #ffff76;
+    font-size: 24px;
 }
